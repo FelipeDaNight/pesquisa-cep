@@ -1,18 +1,18 @@
 # Pesquisa CEP
 
-Site simples para descobrir o CEP de uma cidade brasileira.
+Site para descobrir o **CEP geral** de qualquer cidade brasileira: digite o nome e veja o CEP.
 
-- Escolha o estado e digite a cidade (lista de municípios do IBGE com autocompletar).
-- Opcionalmente informe a rua para obter o CEP exato.
-- Cidades com CEP por logradouro: lista os CEPs encontrados e o prefixo da cidade.
-- Cidades de CEP único: indica a Busca CEP dos Correios para confirmação.
+- Todos os 5.570 municípios, com busca sem acento e por parte do nome.
+- CEP geral = primeiro CEP da faixa oficial do município nos Correios.
+- Indica se a cidade é de CEP único ou se também tem CEPs por rua.
+- Funciona offline: os dados estão embutidos no `index.html`.
 
-## Fontes de dados
+## Fonte
 
-- [ViaCEP](https://viacep.com.br) — base de CEPs dos Correios
-- [API de Localidades do IBGE](https://servicodados.ibge.gov.br/api/docs/localidades)
+Faixas de CEP por município dos Correios, compiladas em
+[Maahzuka/database-CEPS](https://github.com/Maahzuka/database-CEPS) (dados de 2024).
+Conferência oficial: [Busca Faixa de CEP dos Correios](https://buscacepinter.correios.com.br/app/faixa_cep_uf_localidade/index.php).
 
-## Como usar
+## Publicar
 
-Abra o `index.html` no navegador ou publique com GitHub Pages
-(Settings → Pages → Branch `main` / pasta `/root`).
+Settings → Pages → Branch `main` / pasta `/ (root)` → Save.
